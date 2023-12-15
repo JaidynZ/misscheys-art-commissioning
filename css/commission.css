@@ -1,0 +1,144 @@
+/* Colors
+#7CE160 (Dark Green)
+#94227E (Purple)
+#A1FF87 (Light Green)
+#469431 (Darker Green)
+*/
+#title {
+    width: 300px;
+    height: 145px;
+    background-color: #A1FF87;
+    font-size: 50px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    line-height: 145px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bsquare1, .bsquare2, .bsquare3, .bsquare4, .bsquare5, .bsquare6, .bsquare7, .bsquare8, .bsquare9, .bsquare10, .bsquare11, .bsquare12, .bsquare13, .bsquare14, .bsquare15, .bsquare16 {
+    background-image: linear-gradient(#94227E, #469431);
+    position: absolute;
+    z-index: -2;
+    border-radius: 20px;
+}
+.bsquare2, .bsquare4, .bsquare6, .bsquare8, .bsquare10 {
+    width: 325px;
+    height: 325px;
+    left: 600px;
+}
+.bsquare3, .bsquare5, .bsquare7, .bsquare9, .bsquare11 {
+    width: 900px;
+    height: 700px;
+    right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bsquare1 {
+    width: 1800px;
+    height: 500px;
+    top: 200px;
+    left: 50px;
+}
+
+.bsquare2, .bsquare3 {
+    top: 750px;
+}
+.bsquare4, .bsquare5 {
+    top: 1500px;
+}
+.bsquare6, .bsquare7 {
+    top: 2250px;
+}
+.bsquare8, .bsquare9 {
+    top: 3000px;
+}
+.bsquare10, .bsquare11 {
+    top: 3750px;
+}
+.extender {
+    position: absolute;
+    z-index: -999;
+    height: 4475px;
+    width: 200px;
+}
+.isquare1, .isquare2, .isquare3, .isquare4, .isquare5, .isquare6, .isquare7 {
+    padding: 20px;
+    position: absolute;
+    background-color: #7CE160;
+    z-index: -1;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Jua', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.isquare1, .isquare2 {
+width: 800px;
+height: 420px;
+z-index: -1;
+top: 220px;
+font-size: 22px;
+}
+.isquare1 {
+    left: 80px;
+}
+.isquare2 {
+    right: 80px;
+}
+.isquare3, .isquare4, .isquare5, .isquare6, .isquare7 {
+    width: 255px;
+    height: 255px;
+    z-index: -1;
+    left: 615px;
+    font-size: 42px;
+}
+.isquare3 {
+    top: 765px;
+}
+.isquare4 {
+    top: 1515px;
+}
+.isquare5 {
+    top: 2265px;
+}
+.isquare6 {
+    top: 3015px;
+}
+.isquare7 {
+    top: 3765px;
+}
+#duo {
+    max-width: 75%;
+    height:auto;
+}
+#butterfly {
+    max-width: 40%;
+    height:auto;
+    margin: 20px;
+}
+#dress {
+    max-width: 40%;
+    height:auto;
+    margin: 20px;
+}
+#gem {
+    max-width: 70%;
+    height:auto;
+}
+#pink {
+    max-width: 40%;
+    height:auto;
+    margin: 20px;
+}
+#looming {
+    max-width: 40%;
+    height:auto;
+    margin: 20px;
+}
+#tree {
+    max-width: 50%;
+    height:auto;
+}
